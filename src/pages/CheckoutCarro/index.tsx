@@ -20,7 +20,7 @@ const CheckoutCarros = () => {
     const parametros = useParams();
 
     const carro = carros.find((carro) => {
-        return carro.id === Number(parametros.id)
+        return carro.id === parametros.id
     })
 
     const {
