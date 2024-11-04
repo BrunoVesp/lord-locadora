@@ -1,0 +1,33 @@
+.tudo {
+    margin: 64px auto;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.tudo h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.containerCards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+}
+
+.tudo a {
+    width: fit-content;
+}
+
+.tudo button {
+    padding: 12px 48px;
+}
+
+.marcas {
+    text-align: center;
+}

@@ -1,0 +1,71 @@
+.card {
+    border-radius: 16px 16px 0px 0px;
+    width: 300px;
+    box-shadow: 6px 10px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    padding-bottom: 12px;
+    transition: 0.4s;
+}
+
+.card:hover {
+    transform: scale(1.05, 1.05);
+}
+
+.card .nome {
+    background-color: var(--brancoAlternativo);
+    padding: 20px 0px 60px 0px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.card .nome h4 {
+    color: var(--azul);
+    font-size: 24px;
+}
+
+.card .imagem img {
+    width: 100%;
+}
+
+.card .infos {
+    position: relative;
+    padding: 4px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--branco);
+    border-radius: 16px 16px 0px 0px;
+    margin-top: -14px;
+}
+
+.card .infos span {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card .infos div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: .5rem;
+    margin: 8px 0;
+}
+
+.card .infos div p {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: .3rem;
+}
+
+.card .infos div p .icone {
+    font-size: 20px;
+    color: var(--amarelo);
+}
+
+.card .infos .preco {
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--azul);
+    margin-bottom: 12px;
+}

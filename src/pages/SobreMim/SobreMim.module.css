@@ -1,0 +1,135 @@
+.sobreMim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: 48px auto;
+    gap: 2rem;
+}
+
+.divImagem {
+    width: 40%;
+}
+
+.divImagem img {
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid var(--amarelo);
+}
+
+.divTexto {
+    max-width: 1000px;
+}
+
+.divTexto article {
+    margin: 20px 0;
+}
+
+.divTexto h2 {
+    color: var(--azul);
+    font-size: 32px;
+}
+
+.divTexto h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+.divTexto article p {
+    text-indent: 12px;
+    margin: 8px 0;
+    text-align: justify;
+}
+
+.experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.experiencia ul {
+    list-style: disc;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    text-align: justify;
+    margin-left: 28px;
+}
+
+.tempo {
+    font-weight: bold;
+}
+
+.tecnologias ul {
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.tecnologias ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    transition: .4s;
+    font-size: 14px;
+}
+
+.tecnologias ul li:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.tecnologias ul li .icone {
+    font-size: 32px;
+    color: var(--azul);
+}
+
+.contato ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contato ul li {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.contato ul li a {
+    color: var(--azul);
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    transition: 0.4s;
+}
+
+.contato ul li a:hover {
+    color: var(--amarelo);
+}
+
+.icone {
+    font-size: 18px;
+    color: var(--azul);
+}
+
+@media (max-width: 1000px) {
+    .sobreMim {
+        flex-direction: column;
+        width: 100%;
+        padding: 24px;
+    }
+
+    .divTexto {
+        width: 100%;
+    }
+
+    .tecnologias ul {
+        row-gap: 1rem;
+    }
+}

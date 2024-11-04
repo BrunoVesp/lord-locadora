@@ -1,0 +1,5 @@
+.menssagem {
+    color: var(--vermelho);
+    font-weight: bold;
+    margin: 4px 0;
+}

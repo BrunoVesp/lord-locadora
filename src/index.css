@@ -1,0 +1,39 @@
+:root {
+    --amarelo: #F1BC00;
+    --azul: #21408e;
+    --azulHover: #081630;
+    --cinza: #C4C4C4;
+    --preto: #191919;
+    --branco: #FFFFFF;
+    --brancoAlternativo: #FAF5F8;
+    --vermelho: #e42a2a;
+
+    --fonte: "Inter", sans-serif;
+    ---fonteTitulos: "DM Serif Display", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(---fonteTitulos);
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+ol,
+ul {
+    list-style: none;
+}

@@ -1,0 +1,19 @@
+.iconeContainer {
+    background-color: var(--preto);
+    border-radius: 8px 8px 0px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icone {
+    background-color: #e42a2a;
+    color: white;
+    border-radius: 0px 8px 0px 0px;
+    font-size: 45px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.icone:hover {
+    background-color: #a71e1e;
+}

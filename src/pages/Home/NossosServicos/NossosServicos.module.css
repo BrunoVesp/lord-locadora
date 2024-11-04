@@ -1,0 +1,50 @@
+.nossosServicos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 64px auto;
+}
+
+.imagem {
+    width: 50%;
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.infos h2 {
+    color: var(--azul);
+    text-align: center;
+    font-size: 40px;
+}
+
+.infos ul li {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 48px;
+}
+
+.infos ul li div {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.infos ul li div h3 {
+    font-size: 24px;
+}
+
+@media (max-width: 690px) {
+    .nossosServicos {
+        padding: 12px 20px;
+        flex-direction: column;
+    }
+
+    .imagem {
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin: 64px 0;
+}
+
+.carros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.campoPesquisa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

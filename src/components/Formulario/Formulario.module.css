@@ -1,0 +1,16 @@
+.formulario {
+    background-color: #C4C4C4;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    border-radius: 12px;
+    width: 70%;
+}
+
+@media (max-width: 690px) {
+    .formulario {
+        width: 90%;
+    }
+}

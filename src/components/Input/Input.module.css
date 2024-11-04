@@ -1,0 +1,13 @@
+.input {
+    background-color: var(--brancoAlternativo);
+    border: none;
+    outline: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.error:focus {
+    outline: 1px solid var(--vermelho);
+}
