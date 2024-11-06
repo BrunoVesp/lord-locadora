@@ -45,7 +45,7 @@ const ModalCarro = ({ item }: ModalCarroProps) => {
                             <p className={styles.preco}>R$ {item?.preco},00 / dia</p>
                         </div>
                         <Link to="carros">
-                            <Botao>Alugar agora</Botao>
+                            <Botao aoClicar={fecharModal} >Alugar agora</Botao>
                         </Link>
                     </div>
                 </div>

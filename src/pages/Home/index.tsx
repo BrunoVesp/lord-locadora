@@ -14,7 +14,7 @@ const Home = () => {
             <Banner />
             <NossoServicos />
             <TemosTudo />
-            <ModalCarro item={itemSelecionado}/>
+            <ModalCarro item={itemSelecionado} />
             <SejaMotorista />
             <ModalSalvou nomeInfo='Recebemos o seu E-mail!' />
         </>
